@@ -6,8 +6,6 @@ cache:
     - "node_modules"
 git:
   depth: 5
-script:
-  - npm test
 install:
   - npm ci
 before_install:
