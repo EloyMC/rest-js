@@ -6,14 +6,9 @@ cache:
     - "node_modules"
 git:
   depth: 5
-addons:
-  firefox: "latest"
 script:
   - cd server
   - npm test
 before_install:
   - npm i -g npm@latest
-install:
-  - npm ci
-  - gulp build
 after_success: npm run coverage
