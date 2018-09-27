@@ -7,8 +7,9 @@ cache:
 git:
   depth: 5
 script:
-  - cd server
   - npm test
+install:
+  - npm ci
 before_install:
   - npm i -g npm@latest
 after_success: npm run coverage
