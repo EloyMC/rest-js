@@ -14,5 +14,6 @@ install:
   - npm ci
   - gulp build
 script:
+  - cd server
   - npm test
 after_success: npm run coverage
