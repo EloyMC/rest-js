@@ -8,12 +8,12 @@ git:
   depth: 5
 addons:
   firefox: "latest"
+script:
+  - cd server
+  - npm test
 before_install:
   - npm i -g npm@latest
 install:
   - npm ci
   - gulp build
-script:
-  - cd server
-  - npm test
 after_success: npm run coverage
