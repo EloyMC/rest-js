@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "rest-js",
   "version": "0.0.0",
   "description": "NestJS assignment",
   "author": "Eloy Maduro Clement",
@@ -11,7 +11,7 @@
     "start:debug": "nodemon --config nodemon-debug.json",
     "prestart:prod": "rimraf dist && tsc",
     "start:prod": "node dist/main.js",
-    "start:hmr": "node dist/server",
+    "start:hmr": "node dist/rest-js",
     "lint": "tslint -p tsconfig.json -c tslint.json",
     "test": "jest",
     "test:watch": "jest --watch",
