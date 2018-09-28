@@ -32,4 +32,10 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
+```
 
+## Continuous Integration
+```
+# Travis CI
+https://travis-ci.org/EloyMC/rest-js
+```
